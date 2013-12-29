@@ -61,7 +61,10 @@ exports.template = function (grunt, init, done) {
             "grunt-contrib-connect": "~0.5.0"
         };
         props.dependencies ={
-            "include-folder": ">0.4.0"
+            "include-folder": ">0.4.0",
+            "simplator": ">0.0.2",
+            "simplator-subtemplates": ">0.1.0",
+            "simplator-type-filters": ">0.2.0"
         };
         props.npm_test =  "grunt test";
 

@@ -8,4 +8,11 @@
 
 'use strict';
 
-exports.awesome = {};
+var App = require("./app"),
+    app = new App({
+        $:$
+    });
+
+$(document).ready(function(){
+    app.start();
+});

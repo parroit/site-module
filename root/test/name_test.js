@@ -1,11 +1,11 @@
 'use strict';
 
 var expect = require("expect.js");
-var {%= js_test_safe_name %} = require("../lib/{%= name %}");
+var App = require("../lib/app");
 
 
-describe("{%= js_test_safe_name %}", function () {
+describe("app", function () {
     it("is defined", function () {
-        expect({%= js_test_safe_name %}).to.be.an('object');
+        expect(App).to.be.an('function');
     });
 });
