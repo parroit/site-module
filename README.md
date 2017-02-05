@@ -37,4 +37,4 @@ to a new directory first if you don't want to overwrite existing files._
 
 [grunt-init]: http://gruntjs.com/project-scaffolding
 [grunt-mocha-test]: https://github.com/pghalliday/grunt-mocha-test
-[Mocha]: http://visionmedia.github.io/mocha/
+[Mocha]: http://mochajs.org/
